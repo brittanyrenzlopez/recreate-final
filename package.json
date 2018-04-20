@@ -4,16 +4,21 @@
   "description": "\u001b[A\u001b[A\u001b[Crecreate\u001b[B\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D recommendation app",
   "main": "server.js",
   "scripts": {
+    "client-install": "npm install --prefix client",
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
   },
   "author": "Brittany Renz-Lopez",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
     "express": "^4.16.3",
     "jsonwebtoken": "^8.2.1",
+    "jwt-decode": "^2.2.0",
     "mongoose": "^5.0.15",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
