@@ -1,0 +1,27 @@
+input[type=text] {
+	 width: 50%;
+	outline: none;
+    padding: 12px 20px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+input[type=password] {
+	 width: 50%;
+    padding: 12px 20px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+form {
+	margin-top: 140px;
+	text-align: center;
+}

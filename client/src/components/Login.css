@@ -1,0 +1,99 @@
+input[type=text] {
+	 width: 50%;
+   font-size: 16px;
+     color: #bababa;
+     background: rgba(0, 0, 0, 0.35);
+	outline: none;
+    padding: 12px 20px;
+    margin: 0 auto;
+    display: block;
+    border: 7px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-content: center;
+    border:8px solid #ff0000;
+}
+
+input[type=password] {
+	 width: 50%;
+   color: #bababa;
+   font-size: 16px;
+     background: rgba(0, 0, 0, 0.35);
+    padding: 12px 20px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+label{
+    color: white;
+    font-size: 20px;
+}
+
+input, select, textarea{
+color: #bababa;
+}
+
+input::-webkit-input-placeholder {color: white !important;}
+
+form {
+	margin-top: 140px;
+	text-align: center;
+}
+
+h2 {
+    text-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #9747d8, 0 0 55px #9747d8, 0 0 75px #9747d8;
+    text-align: center;
+}
+
+button[type=submit]{
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    text-shadow:none !important;
+    border: 5px solid white;
+    color: white;
+    width: 150px;
+    background: transparent;
+}
+
+button[type=submit]:hover{
+     color:#9dff7c;
+     border: 5px solid #57e238;
+  background-color: transparent;
+    transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 5px black, 0 0 4px #fff, 0 0 5px #57e238, 0 0 6px #57e238, 0 0 7px #57e238, 0 0 8px #57e238, 0 0 10px pink;
+}
+
+button[type=submit]:focus{
+     color:#9dff7c;
+     border: 5px solid #57e238;
+  background-color: transparent;
+    transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 5px black, 0 0 4px #fff, 0 0 5px #57e238, 0 0 6px #57e238, 0 0 7px #57e238, 0 0 8px #57e238, 0 0 10px pink;
+}
+
+.btn-primary {
+   display: block;
+   margin: 0 auto;
+   margin-top: 40px;
+  border: solid 5px white;
+  border-radius: 10px;
+  background-color: transparent;
+   padding: 10px 12px;
+  text-decoration: none;
+  cursor: pointer;
+    width: 120px;
+    font-size: 18px;
+  height:60px;
+}
+
+.btn-primary:hover {
+  color: #ffff96;
+  background-color: transparent;
+  border:solid 5px #ffff96;
+    transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 5px black, 0 0 4px #fff, 0 0 5px gold, 0 0 6px gold, 0 0 7px gold, 0 0 8px gold, 0 0 10px gold;
+}

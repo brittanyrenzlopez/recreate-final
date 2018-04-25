@@ -1,0 +1,104 @@
+p{
+	color: white;
+}
+
+.jumbotron {
+  margin-bottom: 4em;
+  background-color: transparent;
+  text-align: center;
+}
+
+.btn-primary {
+  background-image: none;
+  border: solid 5px white;
+  border-radius: 10px;
+  background-color: transparent;
+   padding: 10px 12px;
+  text-decoration: none;
+  cursor: pointer;
+    width: 120px;
+    font-size: 18px;
+  height:60px;
+}
+
+.btn-primary:hover {
+  color: #ffe100;
+  background-color: transparent;
+  border:solid 5px #ffff96;
+    transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 5px black, 0 0 4px #fff, 0 0 5px #ffff96, 0 0 6px #ffff96, 0 0 7px #ffff96, 0 0 8px #ffff96, 0 0 10px #ffff96;
+}
+
+ a{
+ 	color: white;
+ }
+
+h3 {
+  margin-bottom: 1em;
+  color: white;
+}
+
+input{
+  text-align: center;
+  width: 90%;
+}
+
+#watchHead {
+  --spread: .5em;
+  --shift: .01em;
+  --base: #ff2339;
+  --c1: whitesmoke; 
+  font-family: 'Pacifico', cursive;
+  font-weight: 100;
+  margin: 0 0 .2em 0;
+  font-size: 130px;
+  letter-spacing: -.01em;
+  color: transparent;
+  text-shadow: 
+    0 0 .05em var(--c1), 
+    0 0 .1em var(--base), 
+
+    calc(var(--shift) * 1) calc(var(--shift) * 1) calc(var(--spread) / 50) var(--c1), 
+    calc(var(--shift) * -1) calc(var(--shift) * -1) calc(var(--spread) / 50) var(--c1), 
+    calc(var(--shift) * 1) calc(var(--shift) * -1) calc(var(--spread) / 50) var(--c1), 
+    calc(var(--shift) * -1) calc(var(--shift) * 1) calc(var(--spread) / 50) var(--c1),
+    
+    0 0 var(--spread) var(--base),
+    0 0 calc(var(--spread) / 1.5) var(--base);
+}
+
+
+@import 'https://fonts.googleapis.com/css?family=Salsa|Pacifico';
+
+:root{
+  --spread: .27em;
+  --shift: .01em;
+  --base: #ad42f4;
+  --c1: whitesmoke; 
+}
+
+h3 {
+  font-family: 'Pacifico', cursive;
+  font-weight: 100;
+  margin: 0 0 .2em 0;
+  font-size: 130px;
+  letter-spacing: -.01em;
+  color: transparent;
+  text-shadow: 
+    0 0 .05em var(--c1), 
+    0 0 .1em var(--base), 
+
+    calc(var(--shift) * 1) calc(var(--shift) * 1) calc(var(--spread) / 50) var(--c1), 
+    calc(var(--shift) * -1) calc(var(--shift) * -1) calc(var(--spread) / 50) var(--c1), 
+    calc(var(--shift) * 1) calc(var(--shift) * -1) calc(var(--spread) / 50) var(--c1), 
+    calc(var(--shift) * -1) calc(var(--shift) * 1) calc(var(--spread) / 50) var(--c1),
+    
+    0 0 var(--spread) var(--base),
+    0 0 calc(var(--spread) / 1.5) var(--base);
+}
+
+  @media only screen and (max-width: 480px) {
+       h1 { font-size: 65px !important; }
+       h2 { font-size: 70px !important; }
+       h3 { font-size: 80px !important; }
+     }

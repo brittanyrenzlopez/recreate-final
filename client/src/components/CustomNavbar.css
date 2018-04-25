@@ -1,0 +1,65 @@
+nav.navbar, .navbar-default {
+  background-color: transparent !important;
+  font-size: 20px;
+}
+
+#navlink{
+  background: none;
+}
+
+ a:focus,a:hover{
+text-decoration: none;
+color: #fff;
+text-shadow: none;
+-webkit-transition: 500ms linear 0s;
+-moz-transition: 500ms linear 0s;
+-o-transition: 500ms linear 0s;
+transition: 500ms linear 0s;
+outline: 0 none;
+text-shadow: 1px 0px 20px violet;
+ }
+
+.navbar-default {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-size: 25px;
+  font-family: 'Pacifico', cursive;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+text-decoration: none;
+color: #fff;
+-webkit-transition: 500ms linear 0s;
+-moz-transition: 500ms linear 0s;
+-o-transition: 500ms linear 0s;
+transition: 500ms linear 0s;
+outline: 0 none;
+text-shadow: 1px 0px 30px #d742f4;
+
+}
