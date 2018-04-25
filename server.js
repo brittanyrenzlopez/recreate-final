@@ -27,9 +27,9 @@ require('./config/passport')(passport);
 // use routes
 app.use('/api/users', users);
 
-// Server static assets if in production
+//serve static assets in prod
 if (process.env.NODE_ENV === 'production') {
-  // Set static folder
+  //static folder
   app.use(express.static('client/build'));
 
   app.get('*', (req, res) => {
