@@ -12,6 +12,12 @@ To get started, sign up or log in using the demo account on the homepage [here](
 ![alt tag="Dashboard"](https://i.imgur.com/LFOCVDF.png)
 ![alt tag="Watch Search"](https://i.imgur.com/nj5Bi7F.png)
 ![alt tag="Watch Result"](https://i.imgur.com/RhbrEnJ.png)
+![alt tag="Play Search"](https://i.imgur.com/MYSRhBv.png)
+![alt tag="Play Result"](https://i.imgur.com/jekomgO.png)
+![alt tag="Read Search"](https://i.imgur.com/etLFEnO.png)
+![alt tag="Read Result"](https://i.imgur.com/oWsuntv.png)
+![alt tag="Listen Search"](https://i.imgur.com/eGaz4PT.png)
+![alt tag="Listen Result"](https://i.imgur.com/RNbWx3T.png)
 
 ##### Technologies
 - Node
