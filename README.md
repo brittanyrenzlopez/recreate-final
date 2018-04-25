@@ -12,8 +12,6 @@ To get started, sign up or log in using the demo account on the homepage [here](
 ![alt tag="Dashboard"](https://i.imgur.com/LFOCVDF.png)
 ![alt tag="Watch Search"](https://i.imgur.com/nj5Bi7F.png)
 ![alt tag="Watch Result"](https://i.imgur.com/RhbrEnJ.png)
-![alt tag="Playlist"](https://i.imgur.com/oCVJ6SM.png)
-![alt tag="in Spotify app"](https://i.imgur.com/KpFhofY.png)
 
 ##### Technologies
 - Node
