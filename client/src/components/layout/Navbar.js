@@ -17,14 +17,11 @@ class Navbar extends Component {
     const authLinks = (
       <ul className="navbar-nav ml-auto navbar-right">
         <li className="nav-item">
-        <Link to="/">
-          <a
-            href="localhost:3000"
+          <a href="https://recreate-site.herokuapp.com/dashboard"
             onClick={this.onLogoutClick.bind(this)}
             className="nav-link">
             Logout
           </a>
-          </Link>
         </li>
       </ul>
     );
