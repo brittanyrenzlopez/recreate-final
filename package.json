@@ -8,17 +8,17 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild":
-      "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Brittany Renz-Lopez",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
     "chai": "^4.1.2",
     "chai-http": "^4.0.0",
+    "classnames": "^2.2.5",
     "concurrently": "^3.5.1",
     "express": "^4.16.3",
     "jsonwebtoken": "^8.2.1",
@@ -27,6 +27,13 @@
     "mongoose": "^5.0.15",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
+    "react-bootstrap": "^0.32.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-test-renderer": "^16.3.2",
+    "redux": "^4.0.0",
+    "redux-form": "^7.3.0",
+    "redux-thunk": "^2.2.0",
     "validator": "^9.4.1"
   },
   "engines": {
