@@ -4,7 +4,8 @@
 Recreate is a recommendation application that helps you discover what movie to watch, what game to play, what book to read,
 and what artist to listen to next based on what you already like! 
 
-To get started, sign up or log in using the demo account on the homepage [here](https://recreate-site.herokuapp.com/).
+To get started, sign up or log in using the demo account on the homepage.
+[Live Demo](https://recreate-site.herokuapp.com/).
 
 ![alt tag="Landing"](https://i.imgur.com/HxbkeTo.png)
 ![alt tag="Register"](https://i.imgur.com/5o2rUze.png)
